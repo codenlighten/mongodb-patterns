@@ -1,0 +1,27 @@
+{
+  "name": "mongodb-patterns",
+  "version": "0.1.0",
+  "description": "Eight MongoDB studies, each demonstrated by tests: validation, modelling, atomic updates, transactions, job queues, indexes, pagination and migrations.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "mongodb": "^7.9.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^22.20.7",
+    "eslint": "^10.15.0",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.74.0",
+    "vitest": "^5.1.2"
+  }
+}
