@@ -1,5 +1,7 @@
 # mongodb-patterns: eight MongoDB studies, each demonstrated by tests
 
+[![CI](https://github.com/codenlighten/mongodb-patterns/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/codenlighten/mongodb-patterns/actions/workflows/ci.yml)
+
 Runnable studies of how MongoDB behaves when it matters: validation, data modelling, atomic updates, transactions, job queues, indexes, pagination and schema migration. Each study is a short, commented TypeScript file using the official driver, plus tests that show the problem, show the fix, and fail if the fix is removed.
 
 It shows database engineering as evidence: not "add an index" but "with this index the server had to read this many keys and documents".
